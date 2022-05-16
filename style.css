@@ -1,0 +1,84 @@
+:root {
+    --primary: rgb(30, 201, 73);
+}
+
+header {
+    height: 5em;
+    top: 0;
+}
+
+body {
+    font-family: 'Kanit', sans-serif;
+}
+
+.bg-main-img {
+    height: 100vh;
+    background-image: url(./DirtScoot.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.mdi {
+    font-size: 60px;
+    color: white;
+}
+
+.progress-box {
+    min-height: 20em;
+    transform: translateY(7em);
+}
+
+.progress-bar {
+    background-color: var(--primary);
+}
+
+@media (max-width: 756px) {
+    .middle-card {
+
+        order: -1;
+    }
+}
+
+.db-img {
+
+    max-width: 80%;
+    object-fit: contain;
+
+}
+
+.btn {
+    color: var(--primary);
+    width: 15%;
+    min-width: 15%;
+}
+
+.btn-1 {
+    color: var(--primary);
+
+}
+
+
+.card-body {
+    min-width: 20vh;
+    min-height: 30vh;
+}
+
+.bg-content {
+    min-height: 16em;
+    background-color: var(--primary);
+}
+
+.card {
+    box-shadow: 0 4px 5px -1px grey;
+}
+
+#messageBox {
+
+    width: 100%;
+}
+
+@media (max-width: 756px) {
+    .progress-box {
+        transform: translateY(0);
+
+    }
